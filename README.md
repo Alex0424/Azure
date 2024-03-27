@@ -1,1 +1,3 @@
 # Azure
+
+https://learn.microsoft.com/en-us/training/paths/azure-sql-fundamentals/
