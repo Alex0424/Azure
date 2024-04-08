@@ -46,8 +46,8 @@ VM disk encryption
 
 OS disk
 
-- OS disk size `image default (39GiB)
-- OS disk type `Standard SSD (locally-redundant storage)
+- OS disk size `image default (39GiB)`
+- OS disk type `Standard SSD (locally-redundant storage)`
 - delete with VM `yes`
 - Key Management `Platform-managed key`
 - Enable Ultra Disk compability `no`
