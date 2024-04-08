@@ -1,6 +1,5 @@
 # Azure
-
-links for extra help: https://learn.microsoft.com/en-us/training/paths/azure-sql-fundamentals/
+about azure: https://learn.microsoft.com/en-us/training/paths/azure-sql-fundamentals/
 
 # Create a virtual machine
 
