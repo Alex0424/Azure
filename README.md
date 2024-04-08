@@ -30,7 +30,7 @@ Administrator account
 - SSH public key source: `Use existing public key`
   ```
   ssh-keygen -t rsa -b 4096 -f ~/.ssh/my_ssh_key
-  cat ~/.ssh/my_ssh_key
+  cat ~/.ssh/my_ssh_key.pub
   ```
 
 Inbound port rules
