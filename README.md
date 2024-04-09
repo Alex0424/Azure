@@ -78,9 +78,10 @@ Userdata
 
 package_update: true
 
-runncmd:
+runcmd:
  - curl -L "https://packages.gitlab.com/install/repositories/runner/gitlab-runner/script.deb.sh" | sudo bash
- - apt install gitlab-runner
+ - apt install -y gitlab-runner
+ - gitlab-runner register  --url https://gitlab.com  --token <runner-token> --name super-azure-runner --executor shell -n
 ```
 
 # SSH into your virtual machine
