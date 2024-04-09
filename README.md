@@ -80,7 +80,7 @@ package_update: true
 
 runncmd:
  - curl -L "https://packages.gitlab.com/install/repositories/runner/gitlab-runner/script.deb.sh" | sudo bash
-- apt install gitlab-runner
+ - apt install gitlab-runner
 ```
 
 # SSH into your virtual machine
