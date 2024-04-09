@@ -69,7 +69,19 @@ Load balancing
 
 - Load balancing options `None`
 
-Skip all other steps and create the virtual machine.
+## Advanced
+
+Userdata
+
+```
+#cloud-config
+
+package_update: true
+
+runncmd:
+ - curl -L "https://packages.gitlab.com/install/repositories/runner/gitlab-runner/script.deb.sh" | sudo bash
+- apt install gitlab-runner
+```
 
 # SSH into your virtual machine
 ```
