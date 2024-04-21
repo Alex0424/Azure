@@ -71,7 +71,7 @@ Load balancing
 
 ## Advanced
 
-Userdata
+Userdata / cloud-init
 
 ```
 #cloud-config
@@ -83,6 +83,8 @@ runcmd:
  - apt install -y gitlab-runner
  - gitlab-runner register  --url https://gitlab.com  --token <runner-token> --name super-azure-runner --executor shell -n
 ```
+
+for more cloud-init commands visit: https://cloudinit.readthedocs.io/en/latest/reference/examples.html
 
 # SSH into your virtual machine
 ```
