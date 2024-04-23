@@ -1,5 +1,5 @@
 # Azure
-about azure: https://learn.microsoft.com/en-us/training/paths/azure-sql-fundamentals/
+about azure: https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs
 
 # Create a virtual machine
 
