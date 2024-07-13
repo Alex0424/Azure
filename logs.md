@@ -1,3 +1,5 @@
+# Where to check for logs in Azure
+
 # Boot Diagnostics
 
 virtual machines > your vm > Boot diagnostics > Serial Log
