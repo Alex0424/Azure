@@ -1,5 +1,4 @@
-# Azure
-about azure: https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs
+# Tutorials & examples about Azure
 
 # Create a virtual machine
 
